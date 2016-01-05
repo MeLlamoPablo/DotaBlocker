@@ -1,0 +1,39 @@
+/* bootstrap.css modifications */
+
+h3 {
+	/* Remove excessive whitespace before h3 */
+	margin-top: -10px;
+}
+
+/* Custom */
+.centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.bkb {
+	background: url("http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/72/Black_King_Bar_icon.png") left no-repeat transparent;
+	padding-left: 86px;
+}
+
+.linkens {
+	background: url("http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/23/Linken%27s_Sphere_icon.png") left no-repeat transparent;
+	padding-left: 90px;
+}
+
+.abilitywell {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.red {
+	color: #D32F2F;
+}
+
+.green {
+	color: #388E3C;
+}
+
+.spell {
+	width: 75px;
+}

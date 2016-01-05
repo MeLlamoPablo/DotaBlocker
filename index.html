@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>DotaBlocker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/chosen-bootstrap/chosen.bootstrap.min.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="data/images/icon.ico">
+</head>
+
+<body>
+    <header class="navbar navbar-default navbar-static-top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/" class="navbar-brand" id="app_title"></a>
+            </div>
+            <nav class="collapse navbar-collapse" role="navigation">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="https://github.com/MeLlamoPablo/DotaBlocker" data-string="str_menu_source" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="http://steamcommunity.com/id/mellamopablo/" data-string="str_menu_author" target="_blank"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Begin Body -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" id="leftCol">
+                <!-- Patch and version -->
+                <div class="well well-sm">
+                    <span data-string="str_word_version"></span> <span id="app_version"></span>. <span data-string="str_word_patch"></span> <span id="app_dota_patch"></span>.
+                </div>
+                <!-- Enemy team selector -->
+                <div class="well">
+                    <select id="enemy_team" multiple="multiple"></select>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <!-- Welcome message -->
+                <div class="alert alert-info" role="alert" id="welcome_alert">
+                    <button type="button" class="close" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <span data-string="str_main_welcome"></span> <a href="http://dota2.gamepedia.com/Black_King_Bar" data-string="str_item_bkb" class="alert-link"></a> and <a href="http://dota2.gamepedia.com/Linken%27s_Sphere" data-string="str_item_linkens" class="alert-link"></a>!
+                </div>
+                <div class="alert alert-warning" role="alert" id="warning" style="display: none;">
+                    <button type="button" class="close" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <span data-string="str_main_warning"></span>
+                </div>
+                <!-- Selected heroes showcase -->
+                <div class="well" id="hero_showcase">
+                    <img class="hero_portrait" id="hero_0" src="data/images/no_hero.png">
+                    <img class="hero_portrait" id="hero_1" src="data/images/no_hero.png">
+                    <img class="hero_portrait" id="hero_2" src="data/images/no_hero.png">
+                    <img class="hero_portrait" id="hero_3" src="data/images/no_hero.png">
+                    <img class="hero_portrait" id="hero_4" src="data/images/no_hero.png">
+
+                    <button id="blocked_mode_switch" class="btn btn-danger pull-right" type="submit">
+                        <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+                        <span id="blocked_mode_switch_text" data-string="str_ui_switch_to_piercing"></span>
+                    </button>
+                </div>
+                <!-- BKB/Linkens row -->
+                <div class="row">
+                    <!-- BKB -->
+                    <div id="bkb_col" class="col-md-6">
+                        <h3 class="bkb"><span data-string="str_main_blocked_by" class="green"></span> <span data-string="str_item_bkb"></span></h3>
+                        <div id="abilities_bkb">
+                            <!-- Abilities blocked/piercing BKB will be placed here -->
+                        </div>
+                    </div>
+                    <!-- Linkens -->
+                    <div id="linkens_col" class="col-md-6">
+                        <h3 class="linkens"><span data-string="str_main_blocked_by" class="green"></span> <span data-string="str_item_linkens"></span></h3>
+                        <div id="abilities_linkens">
+                            <!-- Abilities blocked/piercing linkens will be placed here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/chosen/chosen.jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

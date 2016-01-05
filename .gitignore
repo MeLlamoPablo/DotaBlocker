@@ -1,3 +1,8 @@
+unused
+data/heroes.json.bak
+dotablocker.sublime-project
+dotablocker.sublime-workspace
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

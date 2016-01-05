@@ -1,0 +1,2848 @@
+{
+    "Earthshaker":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/bd/Earthshaker.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/b/bd/Earthshaker.png/80px-Earthshaker.png",
+        "abilities":{
+            "Fissure":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/24/Fissure_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Enchant Totem":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8f/Enchant_Totem_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Aftershock":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f1/Aftershock_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Echo Slam":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/01/Echo_Slam_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Axe":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fb/Axe.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/fb/Axe.png/80px-Axe.png",
+        "abilities":{
+            "Berserker's Call":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d1/Berserker%27s_Call_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Battle Hunger":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/00/Battle_Hunger_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Counter Helix":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/14/Counter_Helix_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Culling Blade":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/30/Culling_Blade_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Sven":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/dd/Sven.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/d/dd/Sven.png/80px-Sven.png",
+        "abilities":{
+            "Storm Hammer":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c3/Storm_Hammer_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Great Cleave":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9a/Great_Cleave_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Warcry":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/69/Warcry_icon.png"
+            },
+            "God's Strength":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/cd/God%27s_Strength_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Pudge":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9f/Pudge.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/9f/Pudge.png/80px-Pudge.png",
+        "abilities":{
+            "Meat Hook":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9c/Meat_Hook_icon.png",
+                "bkb":"partially_blocked",
+                "linkens":"not_blocked"
+            },
+            "Rot":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/76/Rot_icon.png",
+                "bkb":"blocked",
+                "linkens":"mot_blocked"
+            },
+            "Flesh Heap":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/bf/Flesh_Heap_icon.png"
+            },
+            "Dismember":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/87/Dismember_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Tiny":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/75/Tiny.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/75/Tiny.png/80px-Tiny.png",
+        "abilities":{
+            "Avalanche":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ef/Avalanche_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Toss":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/54/Toss_icon.png",
+                "bkb":"partially_blocked",
+                "linkens":"not_blocked"
+            },
+            "Craggy Exterior":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d5/Craggy_Exterior_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Grow":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/db/Grow_icon.png"
+            }
+        }
+    },
+    "Sand King":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2c/Sand_King.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/2c/Sand_King.png/80px-Sand_King.png",
+        "abilities":{
+            "Burrowstrike":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/bb/Burrowstrike_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Sand Storm":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/51/Sand_Storm_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Caustic Finale":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c5/Caustic_Finale_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Epicenter":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fe/Epicenter_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Kunkka":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/89/Kunkka.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/89/Kunkka.png/80px-Kunkka.png",
+        "abilities":{
+            "Torrent":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/08/Torrent_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Tidebringer":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/03/Tidebringer_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "X Marks the Spot":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e2/X_Marks_the_Spot_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Ghostship":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/12/Ghostship_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Slardar":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7b/Slardar.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/7b/Slardar.png/80px-Slardar.png",
+        "abilities":{
+            "Sprint":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0a/Sprint_icon.png"
+            },
+            "Slithereen Crush":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/15/Slithereen_Crush_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Bash":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0d/Bash_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Amplify Damage":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d5/Amplify_Damage_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Beastmaster":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d6/Beastmaster.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/d/d6/Beastmaster.png/80px-Beastmaster.png",
+        "abilities":{
+            "Wild Axes":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/27/Wild_Axes_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Call of the Wild: Hawk":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fc/Call_of_the_Wild_Hawk_icon.png"
+            },
+            "Call of the Wild: Boar":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fa/Call_of_the_Wild_Boar_icon.png"
+            },
+            "Inner Beast":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1d/Inner_Beast_icon.png"
+            },
+            "Primal Roar":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/68/Primal_Roar_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Invisibility":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/28/Invisibility_%28Hawk%29_icon.png"
+            },
+            "Boar's Poison":{
+                "real_name":"Poison",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9c/Poison_%28Boar%29_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Tidehunter":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6c/Tidehunter.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/6/6c/Tidehunter.png/80px-Tidehunter.png",
+        "abilities":{
+            "Gush":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/37/Gush_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Gush (with Aghanim Scepter's upgrade)":{
+                "real_name":"Gush",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/37/Gush_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Kraken Shell":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/44/Kraken_Shell_icon.png"
+            },
+            "Anchor Smash":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/63/Anchor_Smash_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Ravage":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/17/Ravage_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Dragon Knight":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4e/Dragon_Knight.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/4e/Dragon_Knight.png/80px-Dragon_Knight.png",
+        "abilities":{
+            "Breathe Fire":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f8/Breathe_Fire_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Dragon Tail":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6f/Dragon_Tail_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Dragon Blood":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e6/Dragon_Blood_icon.png"
+            },
+            "Elder Dragon Form":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/33/Elder_Dragon_Form_icon.png"
+            }
+        }
+    },
+    "Wraith King":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f2/Wraith_King.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/f2/Wraith_King.png/80px-Wraith_King.png",
+        "abilities":{
+            "Wraithfire Blast":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3c/Wraithfire_Blast_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Vampiric Aura":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e4/Vampiric_Aura_icon.png"
+            },
+            "Mortal Strike":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f2/Mortal_Strike_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Reincarnation (Slow)":{
+                "real_name":"Reincarnation",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b4/Reincarnation_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Clockwerk":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b3/Clockwerk.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/b/b3/Clockwerk.png/80px-Clockwerk.png",
+        "abilities":{
+            "Battery Assault":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8f/Battery_Assault_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Power Cogs":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/60/Power_Cogs_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Rocket Flare":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d8/Rocket_Flare_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Hookshot":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d9/Hookshot_icon.png",
+                "bkb":"partially_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Lifestealer":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/65/Lifestealer.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/6/65/Lifestealer.png/80px-Lifestealer.png",
+        "abilities":{
+            "Rage":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/53/Rage_icon.png"
+            },
+            "Feast":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/da/Feast_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Open Wounds":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/69/Open_Wounds_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Infest":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/06/Infest_icon.png"
+            },
+            "Control":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d4/Control_icon.png"
+            },
+            "Consume":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6c/Consume_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Assimilate":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/42/Assimilate_icon.png"
+            },
+            "Eject":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/eb/Eject_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Omniknight":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/ab/Omniknight.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/ab/Omniknight.png/80px-Omniknight.png",
+        "abilities":{
+            "Purification":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/64/Purification_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Repel":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f7/Repel_icon.png"
+            },
+            "Degen Aura":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4d/Degen_Aura_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Guardian Angel":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5d/Guardian_Angel_icon.png"
+            }
+        }
+    },
+    "Night Stalker":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/bb/Night_Stalker.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/b/bb/Night_Stalker.png/80px-Night_Stalker.png",
+        "abilities":{
+            "Void":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/29/Void_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Crippling Fear":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d2/Crippling_Fear_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Hunter in the Night":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/54/Hunter_in_the_Night_icon.png"
+            },
+            "Darkness":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/51/Darkness_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Huskar":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2b/Huskar.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/2b/Huskar.png/80px-Huskar.png",
+        "abilities":{
+            "Inner Vitality":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/86/Inner_Vitality_icon.png"
+            },
+            "Burning Spear":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/27/Burning_Spear_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Berserker's Blood":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6a/Berserker%27s_Blood_icon.png"
+            },
+            "Life Break":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d8/Life_Break_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Doom":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a9/Doom_Bringer.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/a9/Doom_Bringer.png/80px-Doom_Bringer.png",
+        "abilities":{
+            "Devour":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e0/Devour_icon.png"
+            },
+            "Scorched Earth":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7e/Scorched_Earth_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Infernal Blade":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e2/Infernal_Blade_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Doom":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/76/Doom_ability_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Alchemist":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5b/Alchemist.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/5b/Alchemist.png/80px-Alchemist.png",
+        "abilities":{
+            "Acid Spray":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6b/Acid_Spray_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Unstable Concoction":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/96/Unstable_Concoction_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Greevil's Greed":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/94/Greevil%27s_Greed_icon.png"
+            },
+            "Chemical Rage":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/24/Chemical_Rage_icon.png"
+            }
+        }
+    },
+    "Spirit Breaker":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/82/Spirit_Breaker.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/82/Spirit_Breaker.png/80px-Spirit_Breaker.png",
+        "abilities":{
+            "Charge of Darkness":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4d/Charge_of_Darkness_icon.png",
+                "bkb":"partially_blocked",
+                "linkens":"partially_blocked"
+            },
+            "Empowering Haste":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/40/Empowering_Haste_icon.png"
+            },
+            "Greater Bash":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/90/Greater_Bash_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Nether Strike":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/79/Nether_Strike_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"partially_blocked"
+            }
+        }
+    },
+    "Brewmaster":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/43/Brewmaster.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/43/Brewmaster.png/80px-Brewmaster.png",
+        "abilities":{
+            "Thunder Clap":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b3/Thunder_Clap_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Drunken Haze":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/44/Drunken_Haze_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Drunken Brawler":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d9/Drunken_Brawler_icon.png"
+            },
+            "Primal Split":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1f/Primal_Split_icon.png"
+            },
+            "Hurl Boulder":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/19/Hurl_Boulder_%28Earth%29_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Spell Immunity":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e5/Spell_Immunity_%28Earth%29_icon.png"
+            },
+            "Pulverize":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/06/Pulverize_%28Earth%29_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Dispel Magic":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0c/Dispel_Magic_%28Storm%29_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Cyclone":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e2/Cyclone_%28Storm%29_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Wind Walk":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2c/Wind_Walk_%28Storm%29_icon.png"
+            },
+            "Permanent Immolation":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1f/Permanent_Immolation_%28Fire%29_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Lycan":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/15/Lycan.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/15/Lycan.png/80px-Lycan.png",
+        "abilities":{
+            "Summon Wolves":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/32/Summon_Wolves_icon.png"
+            },
+            "Howl":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d1/Howl_icon.png"
+            },
+            "Feral Impulse":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/04/Feral_Impulse_icon.png"
+            },
+            "Shapeshift":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c0/Shapeshift_icon.png"
+            },
+            "Wolves' Cripple":{
+                "real_name":"Cripple",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7f/Cripple_%28Lycan_Wolf%29_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Invisibility":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c3/Invisibility_%28Lycan_Wolf%29_icon.png"
+            }
+        }
+    },
+    "Treant Protector":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/18/Treant_Protector.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/18/Treant_Protector.png/80px-Treant_Protector.png",
+        "abilities":{
+            "Nature's Guise":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/69/Nature%27s_Guise_icon.png"
+            },
+            "Leech Seed":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4e/Leech_Seed_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Living Armor":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b8/Living_Armor_icon.png"
+            },
+            "Overgrowth":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a3/Overgrowth_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Eyes In The Forest":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d4/Eyes_in_the_Forest_icon.png"
+            }
+        }
+    },
+    "Chaos Knight":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/cf/Chaos_Knight.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/cf/Chaos_Knight.png/80px-Chaos_Knight.png",
+        "abilities":{
+            "Chaos Bolt":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c0/Chaos_Bolt_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Reality Rift":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/66/Reality_Rift_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Chaos Strike":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f8/Chaos_Strike_icon.png"
+            },
+            "Phantasm":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3c/Phantasm_icon.png"
+            }
+        }
+    },
+    "Io":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/94/Io.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/94/Io.png/80px-Io.png",
+        "abilities":{
+            "Tether":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/02/Tether_icon.png"
+            },
+            "Break Tether":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1f/Break_Tether_icon.png"
+            },
+            "Spirits":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/af/Spirits_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Spirits In":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b1/Spirits_In_icon.png"
+            },
+            "Spirits Out":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1f/Spirits_Out_icon.png"
+            },
+            "Overcharge":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c3/Overcharge_icon.png"
+            },
+            "Relocate":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1e/Relocate_icon.png"
+            }
+        }
+    },
+    "Undying":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0d/Undying.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/0/0d/Undying.png/80px-Undying.png",
+        "abilities":{
+            "Decay":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/28/Decay_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Soul Rip":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4c/Soul_Rip_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Tombstone":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6c/Tombstone_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Flesh Golem":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/46/Flesh_Golem_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Centaur Warrunner":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b6/Centaur_Warrunner.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/b/b6/Centaur_Warrunner.png/80px-Centaur_Warrunner.png",
+        "abilities":{
+            "Hoof Stomp":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/95/Hoof_Stomp_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Double Edge":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3f/Double_Edge_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Return":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/31/Return_%28Centaur_Warrunner%29_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Stampede":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5b/Stampede_icon.png"
+            }
+        }
+    },
+    "Magnus":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/58/Magnus.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/58/Magnus.png/80px-Magnus.png",
+        "abilities":{
+            "Shockwave":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d2/Shockwave_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Empower":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7d/Empower_icon.png"
+            },
+            "Skewer":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/87/Skewer_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Reverse Polarity":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/ff/Reverse_Polarity_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Timbersaw":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/81/Timbersaw.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/81/Timbersaw.png/80px-Timbersaw.png",
+        "abilities":{
+            "Whirling Death":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f5/Whirling_Death_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Timber Chain":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4e/Timber_Chain_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Reactive Armor":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e5/Reactive_Armor_icon.png"
+            },
+            "Chakram":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c3/Chakram_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Abaddon":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0c/Abaddon.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/0/0c/Abaddon.png/80px-Abaddon.png",
+        "abilities":{
+            "Mist Coil":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/ce/Mist_Coil_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Aphotic Shield":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b1/Aphotic_Shield_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Curse of Avernus":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d2/Curse_of_Avernus_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Borrowed Time":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/78/Borrowed_Time_icon.png"
+            }
+        }
+    },
+    "Bristleback":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5f/Bristleback.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/5f/Bristleback.png/80px-Bristleback.png",
+        "abilities":{
+            "Viscous Nasal Goo":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/24/Viscous_Nasal_Goo_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Quill Spray":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/15/Quill_Spray_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Bristleback":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8a/Bristleback_ability_icon.png"
+            },
+            "Warpath":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/25/Warpath_icon.png"
+            }
+        }
+    },
+    "Tusk":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/42/Tusk.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/42/Tusk.png/80px-Tusk.png",
+        "abilities":{
+            "Ice Shards":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/35/Ice_Shards_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Snowball":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/41/Snowball_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Frozen Sigil":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/85/Frozen_Sigil_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Walrus PUNCH!":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/40/Walrus_Punch_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Walrus Kick":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/63/Walrus_Kick_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Elder Titan":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/95/Elder_Titan.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/95/Elder_Titan.png/80px-Elder_Titan.png",
+        "abilities":{
+            "Echo Stomp":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e5/Echo_Stomp_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Astral Spirit":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/90/Astral_Spirit_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Natural Order":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8a/Natural_Order_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Earth Splitter":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/88/Earth_Splitter_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Legion Commander":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3e/Legion_Commander.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/3e/Legion_Commander.png/80px-Legion_Commander.png",
+        "abilities":{
+            "Overwhelming Odds":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/49/Overwhelming_Odds_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Press the Attack":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/df/Press_the_Attack_icon.png"
+            },
+            "Moment of Courage":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/bd/Moment_of_Courage_icon.png"
+            },
+            "Duel":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/ba/Duel_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Earth Spirit":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/40/Earth_Spirit.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/40/Earth_Spirit.png/80px-Earth_Spirit.png",
+        "abilities":{
+            "Boulder Smash":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/54/Boulder_Smash_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Rolling Boulder":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/09/Rolling_Boulder_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Geomagnetic Grip":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e8/Geomagnetic_Grip_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Stone Remnant":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7d/Stone_Remnant_icon.png"
+            },
+            "Magnetize":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/82/Magnetize_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Enchant Remnant":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/74/Enchant_Remnant_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Phoenix":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c1/Phoenix.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/c1/Phoenix.png/80px-Phoenix.png",
+        "abilities":{
+            "Icarus Dive":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/00/Icarus_Dive_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Fire Spirits":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/cf/Fire_Spirits_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Sun Ray":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/df/Sun_Ray_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Supernova":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/aa/Supernova_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Anti-Mage":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ef/Anti-Mage.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/e/ef/Anti-Mage.png/80px-Anti-Mage.png",
+        "abilities":{
+            "Mana Break":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c1/Mana_Break_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Blink":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/ce/Blink_%28Anti-Mage%29_icon.png"
+            },
+            "Spell Shield":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a6/Spell_Shield_icon.png"
+            },
+            "Mana Void":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fe/Mana_Void_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"partially_blocked"
+            }
+        }
+    },
+    "Bloodseeker":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1e/Bloodseeker.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/1e/Bloodseeker.png/80px-Bloodseeker.png",
+        "abilities":{
+            "Bloodrage":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8a/Bloodrage_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            },
+            "Blood Rite":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/83/Blood_Rite_icon.png",
+                "bkb":"blocked"
+            },
+            "Thirst":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8e/Thirst_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Rupture":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f4/Rupture_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Drow Ranger":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/36/Drow_Ranger.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/36/Drow_Ranger.png/80px-Drow_Ranger.png",
+        "abilities":{
+            "Frost Arrows":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8f/Frost_Arrows_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Gust":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5b/Gust_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Precision Aura":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/51/Precision_Aura_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Marksmanship":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/af/Marksmanship_icon.png"
+            }
+        }
+    },
+    "Shadow Fiend":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/71/Shadow_Fiend.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/71/Shadow_Fiend.png/80px-Shadow_Fiend.png",
+        "abilities":{
+            "Shadowrazes":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7c/Shadowraze_%28near%29_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Necromastery":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9d/Necromastery_icon.png",
+                "bkb":"not_blocked"
+            },
+            "Presence of the Dark Lord":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6e/Presence_of_the_Dark_Lord_icon.png",
+                "bkb":"not_blocked"
+            },
+            "Requiem of Souls":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a8/Requiem_of_Souls_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Juggernaut":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/07/Juggernaut.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/0/07/Juggernaut.png/80px-Juggernaut.png",
+        "abilities":{
+            "Blade Fury":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4c/Blade_Fury_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Healing Ward":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/58/Healing_Ward_icon.png"
+            },
+            "Blade Dance":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/83/Blade_Dance_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Omnislash":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/39/Omnislash_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"partially_blocked"
+            }
+        }
+    },
+    "Razor":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a0/Razor.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/a0/Razor.png/80px-Razor.png",
+        "abilities":{
+            "Plasma Field":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c9/Plasma_Field_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Static Link":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/01/Static_Link_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            },
+            "Unstable Current":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/cf/Unstable_Current_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Eye of the Storm":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3c/Eye_of_the_Storm_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Mirana":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f9/Mirana.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/f9/Mirana.png/80px-Mirana.png",
+        "abilities":{
+            "Starstorm":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9e/Starstorm_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Sacred Arrow":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/49/Sacred_Arrow_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Leap":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/88/Leap_icon.png"
+            },
+            "Moonlight Shadow":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6b/Moonlight_Shadow_icon.png"
+            }
+        }
+    },
+    "Venomancer":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f0/Venomancer.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/f0/Venomancer.png/80px-Venomancer.png",
+        "abilities":{
+            "Venomous Gale":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0c/Venomous_Gale_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Poison Sting":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/69/Poison_Sting_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Plague Ward":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/67/Plague_Ward_icon.png"
+            },
+            "Poison Nova":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0a/Poison_Nova_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Morphling":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7f/Morphling.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/7f/Morphling.png/80px-Morphling.png",
+        "abilities":{
+            "Waveform":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/97/Waveform_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Adaptive Strike":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b0/Adaptive_Strike_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Morph (Agility Gain)":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/80/Morph_%28Agility_Gain%29_icon.png"
+            },
+            "Morph (Strength Gain)":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/75/Morph_%28Strength_Gain%29_icon.png"
+            },
+            "Replicate":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c8/Replicate_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            },
+            "Morph Replicate":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9f/Morph_Replicate_icon.png"
+            },
+            "Hybrid":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/db/Hybrid_icon.png"
+            }
+        }
+    },
+    "Faceless Void":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/03/Faceless_Void.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/0/03/Faceless_Void.png/80px-Faceless_Void.png",
+        "abilities":{
+            "Time Walk":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1d/Time_Walk_icon.png"
+            },
+            "Time Dilation":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/bc/Time_Dilation_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Time Lock":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b7/Time_Lock_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Chronosphere":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/bf/Chronosphere_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Phantom Lancer":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/51/Phantom_Lancer.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/51/Phantom_Lancer.png/80px-Phantom_Lancer.png",
+        "abilities":{
+            "Spirit Lance":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fd/Spirit_Lance_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Doppelganger":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e2/Doppelganger_icon.png"
+            },
+            "Phantom Rush":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8a/Phantom_Rush_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Juxtapose":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e4/Juxtapose_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Phantom Assassin":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f0/Phantom_Assassin.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/f0/Phantom_Assassin.png/80px-Phantom_Assassin.png",
+        "abilities":{
+            "Stifling Dagger":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1c/Stifling_Dagger_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Phantom Strike":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/24/Phantom_Strike_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Blur":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ef/Blur_icon.png",
+                "bkb":"blocked"
+            },
+            "Coup de Grace":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0f/Coup_de_Grace_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Vengeful Spirit":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/78/Vengeful_Spirit.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/78/Vengeful_Spirit.png/80px-Vengeful_Spirit.png",
+        "abilities":{
+            "Magic Missile":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ed/Magic_Missile_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Wave of Terror":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/34/Wave_of_Terror_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Vengeance Aura":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/28/Vengeance_Aura_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Nether Swap":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/11/Nether_Swap_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Viper":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/99/Viper.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/99/Viper.png/80px-Viper.png",
+        "abilities":{
+            "Poison Attack":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1b/Poison_Attack_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Nethertoxin":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/95/Nethertoxin_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Corrosive Skin":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ea/Corrosive_Skin_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Viper Strike":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9b/Viper_Strike_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Riki":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/39/Riki.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/39/Riki.png/80px-Riki.png",
+        "abilities":{
+            "Smoke Screen":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7a/Smoke_Screen_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Blink Strike":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/30/Blink_Strike_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Cloak and Dagger":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f0/Cloak_and_Dagger_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Tricks of the Trade":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ed/Tricks_of_the_Trade_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Clinkz":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9c/Clinkz.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/9c/Clinkz.png/80px-Clinkz.png",
+        "abilities":{
+            "Strafe":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/da/Strafe_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Searing Arrows":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e9/Searing_Arrows_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Skeleton Walk":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b5/Skeleton_Walk_icon.png"
+            },
+            "Death Pact":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b4/Death_Pact_icon.png"
+            }
+        }
+    },
+    "Sniper":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8f/Sniper.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/8f/Sniper.png/80px-Sniper.png",
+        "abilities":{
+            "Shrapnel":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/05/Shrapnel_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Headshot":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e5/Headshot_icon.png",
+                "bkb":"partially_blocked",
+                "linkens":"not_blocked"
+            },
+            "Take Aim":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/64/Take_Aim_icon.png"
+            },
+            "Assassinate":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/16/Assassinate_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Broodmother":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/19/Broodmother.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/19/Broodmother.png/80px-Broodmother.png",
+        "abilities":{
+            "Spawn Spiderlings":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d5/Spawn_Spiderlings_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Spin Web":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/df/Spin_Web_icon.png"
+            },
+            "Incapacitating Bite":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/84/Incapacitating_Bite_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Insatiable Hunger":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/be/Insatiable_Hunger_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Templar Assassin":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/27/Templar_Assassin.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/27/Templar_Assassin.png/80px-Templar_Assassin.png",
+        "abilities":{
+            "Refraction":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f9/Refraction_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Meld":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4d/Meld_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Psi Blades":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/78/Psi_Blades_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Psionic Trap":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a7/Psionic_Trap_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Weaver":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c3/Weaver.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/c3/Weaver.png/80px-Weaver.png",
+        "abilities":{
+            "The Swarm":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7e/The_Swarm_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Shukuchi":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/24/Shukuchi_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Geminate Attack":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2d/Geminate_Attack_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Time Lapse":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/16/Time_Lapse_icon.png"
+            }
+        }
+    },
+    "Luna":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/13/Luna.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/13/Luna.png/80px-Luna.png",
+        "abilities":{
+            "Lucent Beam":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f0/Lucent_Beam_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Moon Glaive":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/de/Moon_Glaive_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Lunar Blessing":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/49/Lunar_Blessing_icon.png"
+            },
+            "Eclipse":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2c/Eclipse_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Spectre":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/90/Spectre.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/90/Spectre.png/80px-Spectre.png",
+        "abilities":{
+            "Spectral Dagger":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/db/Spectral_Dagger_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Desolate":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/06/Desolate_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Dispersion":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a4/Dispersion_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Haunt":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b4/Haunt_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Reality":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2d/Reality_icon.png"
+            }
+        }
+    },
+    "Bounty Hunter":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1d/Bounty_Hunter.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/1d/Bounty_Hunter.png/80px-Bounty_Hunter.png",
+        "abilities":{
+            "Shuriken Toss":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0d/Shuriken_Toss_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Jinada":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/99/Jinada_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Shadow Walk":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/78/Shadow_Walk_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Track":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6e/Track_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Meepo":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/03/Meepo.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/0/03/Meepo.png/80px-Meepo.png",
+        "abilities":{
+            "Earthbind":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/36/Earthbind_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Poof":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/17/Poof_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Geostrike":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/61/Geostrike_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Divided We Stand":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/07/Divided_We_Stand_icon.png"
+            }
+        }
+    },
+    "Ursa":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a6/Ursa.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/a6/Ursa.png/80px-Ursa.png",
+        "abilities":{
+            "Earthshock":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3a/Earthshock_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Overpower":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fd/Overpower_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Fury Swipes":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2f/Fury_Swipes_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Enrage":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/52/Enrage_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Nyx Assassin":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9e/Nyx_Assassin.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/9e/Nyx_Assassin.png/80px-Nyx_Assassin.png",
+        "abilities":{
+            "Impale":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2f/Impale_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Mana Burn":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b6/Mana_Burn_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Spiked Carapace":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/28/Spiked_Carapace_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Vendetta":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/40/Vendetta_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Burrow":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b8/Burrow_icon.png"
+            },
+            "Unburrow":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/70/Unburrow_icon.png"
+            }
+        }
+    },
+    "Gyrocopter":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5d/Gyrocopter.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/5d/Gyrocopter.png/80px-Gyrocopter.png",
+        "abilities":{
+            "Rocket Barrage":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5a/Rocket_Barrage_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Homing Missile":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3a/Homing_Missile_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Flak Cannon":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2b/Flak_Cannon_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Call Down":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/ad/Call_Down_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Slark":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e2/Slark.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/e/e2/Slark.png/80px-Slark.png",
+        "abilities":{
+            "Dark Pact":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8d/Dark_Pact_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Pounce":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/25/Pounce_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Essence Shift":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6e/Essence_Shift_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Shadow Dance":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2c/Shadow_Dance_icon.png"
+            }
+        }
+    },
+    "Lone Druid":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3d/Lone_Druid.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/3d/Lone_Druid.png/80px-Lone_Druid.png",
+        "abilities":{
+            "Summon Spirit Bear":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5d/Summon_Spirit_Bear_icon.png"
+            },
+            "Rabid":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/10/Rabid_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Savage Roar":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/31/Savage_Roar_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "True Form":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/64/True_Form_icon.png"
+            },
+            "Druid Form":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/82/Druid_Form_icon.png"
+            },
+            "Battle Cry":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e7/Battle_Cry_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Return":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b8/Return_%28Spirit_Bear%29_icon.png"
+            },
+            "Entangling Claws":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1f/Entangling_Claws_%28Spirit_Bear%29_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Demolish":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3a/Demolish_%28Spirit_Bear%29_icon.png"
+            }
+        }
+    },
+    "Medusa":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c3/Medusa.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/c3/Medusa.png/80px-Medusa.png",
+        "abilities":{
+            "Split Shot":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/17/Split_Shot_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Mystic Snake":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7e/Mystic_Snake_icon.png",
+                "bkb":"partially_blocked",
+                "linkens":"blocked"
+            },
+            "Mana Shield":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/25/Mana_Shield_icon.png"
+            },
+            "Stone Gaze":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6c/Stone_Gaze_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Naga Siren":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d5/Naga_Siren.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/d/d5/Naga_Siren.png/80px-Naga_Siren.png",
+        "abilities":{
+            "Mirror Image":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6d/Mirror_Image_icon.png"
+            },
+            "Ensnare":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/31/Ensnare_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            },
+            "Rip Tide":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/21/Rip_Tide_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Song of the Siren":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ed/Song_of_the_Siren_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Terrorblade":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/72/Terrorblade.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/72/Terrorblade.png/80px-Terrorblade.png",
+        "abilities":{
+            "Reflection":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8b/Reflection_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Conjure Image":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9b/Conjure_Image_icon.png"
+            },
+            "Metamorphosis":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/85/Metamorphosis_icon.png"
+            },
+            "Sunder":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/15/Sunder_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Troll Warlord":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d7/Troll_Warlord.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/d/d7/Troll_Warlord.png/80px-Troll_Warlord.png",
+        "abilities":{
+            "Berserker's Rage":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/79/Berserker%27s_Rage_icon.png"
+            },
+            "Whirling Axes (Ranged)":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/00/Whirling_Axes_%28Ranged%29_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Whirling Axes (Melee)":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/68/Whirling_Axes_%28Melee%29_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Fervor":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c4/Fervor_icon.png",
+                "bkb":"not_blocked"
+            },
+            "Battle Trance":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/70/Battle_Trance_icon.png"
+            }
+        }
+    },
+    "Arc Warden":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4d/Arc_Warden.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/4d/Arc_Warden.png/80px-Arc_Warden.png",
+        "abilities":{
+            "Flux":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/03/Flux_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Magnetic Field":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/db/Magnetic_Field_icon.png",
+                "bkb":"not_blocked"
+            },
+            "Spark Wraith":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/eb/Spark_Wraith_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Tempest Double":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d2/Tempest_Double_icon.png"
+            }
+        }
+    },
+    "Ember Spirit":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1a/Ember_Spirit.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/1a/Ember_Spirit.png/80px-Ember_Spirit.png",
+        "abilities":{
+            "Searing Chains":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/ad/Searing_Chains_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Sleight of Fist":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/64/Sleight_of_Fist_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Flame Guard":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/11/Flame_Guard_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Fire Remnant":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a8/Fire_Remnant_icon.png"
+            },
+            "Activate Fire Remnant":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/77/Activate_Fire_Remnant_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Crystal Maiden":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/10/Crystal_Maiden.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/10/Crystal_Maiden.png/80px-Crystal_Maiden.png",
+        "abilities":{
+            "Crystal Nova":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/72/Crystal_Nova_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Frostbite":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d6/Frostbite_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Arcane Aura":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5a/Arcane_Aura_icon.png"
+            },
+            "Freezing Field":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/de/Freezing_Field_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Bane":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9a/Bane.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/9a/Bane.png/80px-Bane.png",
+        "abilities":{
+            "Enfeeble":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/40/Enfeeble_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Brain Sap":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0c/Brain_Sap_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Nightmare":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6e/Nightmare_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Fiend's Grip":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7b/Fiend%27s_Grip_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Puck":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b6/Puck.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/b/b6/Puck.png/80px-Puck.png",
+        "abilities":{
+            "Illusory Orb":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7d/Illusory_Orb_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Waning Rift":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/28/Waning_Rift_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Phase Shift":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/79/Phase_Shift_icon.png"
+            },
+            "Dream Coil":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/90/Dream_Coil_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Dream Coil (with Aghanim Scepter's upgrade)":{
+                "real_name":"Dream Coil",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/90/Dream_Coil_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Lich":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/86/Lich.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/86/Lich.png/80px-Lich.png",
+        "abilities":{
+            "Frost Blast":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6c/Frost_Blast_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Ice Armor":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b8/Ice_Armor_icon.png"
+            },
+            "Sacrifice":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/cb/Sacrifice_icon.png"
+            },
+            "Chain Frost":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/77/Chain_Frost_icon.png",
+                "bkb":"partially_blocked",
+                "linkens":"partially_blocked"
+            }
+        }
+    },
+    "Storm Spirit":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/25/Storm_Spirit.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/25/Storm_Spirit.png/80px-Storm_Spirit.png",
+        "abilities":{
+            "Static Remnant":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d6/Static_Remnant_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Electric Vortex":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8e/Electric_Vortex_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Overload":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9d/Overload_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Ball Lightning":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/6e/Ball_Lightning_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Lion":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/47/Lion.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/47/Lion.png/80px-Lion.png",
+        "abilities":{
+            "Earth Spike":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/03/Earth_Spike_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Hex":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2c/Hex_%28Lion%29_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Mana Drain":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1a/Mana_Drain_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Finger of Death":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d4/Finger_of_Death_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            }
+        }
+    },
+    "Windranger":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/11/Windranger.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/11/Windranger.png/80px-Windranger.png",
+        "abilities":{
+            "Shackleshot":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3e/Shackleshot_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Powershot":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2a/Powershot_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Windrun":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/88/Windrun_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Focus Fire":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4d/Focus_Fire_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Witch Doctor":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/ac/Witch_Doctor.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/ac/Witch_Doctor.png/80px-Witch_Doctor.png",
+        "abilities":{
+            "Paralyzing Cask":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/dd/Paralyzing_Cask_icon.png",
+                "bkb":"partially_blocked",
+                "linkens":"partially_blocked"
+            },
+            "Voodoo Restoration":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/11/Voodoo_Restoration_icon.png"
+            },
+            "Maledict":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/42/Maledict_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Death Ward":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/cf/Death_Ward_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Zeus":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3c/Zeus.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/3c/Zeus.png/80px-Zeus.png",
+        "abilities":{
+            "Arc Lightning":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ef/Arc_Lightning_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Lightning Bolt":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/34/Lightning_Bolt_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Static Field":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/ae/Static_Field_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Thundergod's Wrath":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1c/Thundergod%27s_Wrath_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Enigma":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8b/Enigma.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/8b/Enigma.png/80px-Enigma.png",
+        "abilities":{
+            "Malefice":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c1/Malefice_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Demonic Conversion":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d5/Demonic_Conversion_icon.png"
+            },
+            "Midnight Pulse":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/09/Midnight_Pulse_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Black Hole":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b8/Black_Hole_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Lina":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ec/Lina.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/e/ec/Lina.png/80px-Lina.png",
+        "abilities":{
+            "Dragon Slave":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/93/Dragon_Slave_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Light Strike Array":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a1/Light_Strike_Array_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Fiery Soul":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/be/Fiery_Soul_icon.png"
+            },
+            "Laguna Blade":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/83/Laguna_Blade_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Laguna Blade (with Aghanim Scepter's upgrade)":{
+                "real_name":"Laguna Blade",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/83/Laguna_Blade_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Necrophos":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/13/Necrophos.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/13/Necrophos.png/80px-Necrophos.png",
+        "abilities":{
+            "Death Pulse":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/32/Death_Pulse_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Heartstopper Aura":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/17/Heartstopper_Aura_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Sadist":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/75/Sadist_icon.png"
+            },
+            "Reaper's Scythe":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/de/Reaper%27s_Scythe_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Shadow Shaman":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/11/Shadow_Shaman.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/11/Shadow_Shaman.png/80px-Shadow_Shaman.png",
+        "abilities":{
+            "Ether Shock":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ea/Ether_Shock_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Hex":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/66/Hex_%28Shadow_Shaman%29_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Shackles":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/62/Shackles_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Mass Serpent Ward":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5e/Mass_Serpent_Ward_icon.png",
+                "bkb":"partially_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Warlock":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/51/Warlock.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/51/Warlock.png/80px-Warlock.png",
+        "abilities":{
+            "Fatal Bonds":{
+                "real_name":"Permanent Immolation",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8b/Fatal_Bonds_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Shadow Word":{
+                "real_name":"Permanent Immolation",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b1/Shadow_Word_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Upheaval":{
+                "real_name":"Permanent Immolation",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ea/Upheaval_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Chaotic Offering":{
+                "real_name":"Permanent Immolation",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7d/Chaotic_Offering_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Golem's Flaming Fists":{
+                "real_name":"Flaming Fists",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/03/Flaming_Fists_%28Warlock%27s_Golem%29_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Golem's Permanent Immolation":{
+                "real_name":"Permanent Immolation",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d3/Permanent_Immolation_%28Warlock%27s_Golem%29_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Tinker":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ec/Tinker.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/e/ec/Tinker.png/80px-Tinker.png",
+        "abilities":{
+            "Laser":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/59/Laser_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Heat-Seeking Missile":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9c/Heat-Seeking_Missile_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "March of the Machines":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f5/March_of_the_Machines_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Rearm":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/cd/Rearm_icon.png"
+            }
+        }
+    },
+    "Death Prophet":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/52/Death_Prophet.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/52/Death_Prophet.png/80px-Death_Prophet.png",
+        "abilities":{
+            "Crypt Swarm":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/bc/Crypt_Swarm_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Silence":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/49/Silence_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Spirit Siphon":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/83/Spirit_Siphon_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            },
+            "Exorcism":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/71/Exorcism_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Enchantress":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/99/Enchantress.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/99/Enchantress.png/80px-Enchantress.png",
+        "abilities":{
+            "Untouchable":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0d/Untouchable_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Enchant":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3a/Enchant_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Nature's Attendants":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/50/Nature%27s_Attendants_icon.png"
+            },
+            "Impetus":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c9/Impetus_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Pugna":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1a/Pugna.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/1a/Pugna.png/80px-Pugna.png",
+        "abilities":{
+            "Nether Blast":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/12/Nether_Blast_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Decrepify":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c9/Decrepify_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Nether Ward":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fa/Nether_Ward_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Life Drain":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a7/Life_Drain_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Jakiro":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1d/Jakiro.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/1d/Jakiro.png/80px-Jakiro.png",
+        "abilities":{
+            "Dual Breath":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/af/Dual_Breath_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Ice Path":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fe/Ice_Path_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Liquid Fire":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/67/Liquid_Fire_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Macropyre":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/bd/Macropyre_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Dazzle":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/74/Dazzle.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/74/Dazzle.png/80px-Dazzle.png",
+        "abilities":{
+            "Poison Touch":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/09/Poison_Touch_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Shallow Grave":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/69/Shallow_Grave_icon.png"
+            },
+            "Shadow Wave":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/12/Shadow_Wave_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Weave":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/da/Weave_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Chen":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/80/Chen.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/80/Chen.png/80px-Chen.png",
+        "abilities":{
+            "Penitence":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9e/Penitence_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Test of Faith":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fd/Test_of_Faith_icon.png",
+                "bkb":"partially_blocked",
+                "linkens":"blocked"
+            },
+            "Holy Persuasion":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/43/Holy_Persuasion_icon.png"
+            },
+            "Hand of God":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c9/Hand_of_God_icon.png"
+            }
+        }
+    },
+    "Leshrac":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e9/Leshrac.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/e/e9/Leshrac.png/80px-Leshrac.png",
+        "abilities":{
+            "Split Earth":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1a/Split_Earth_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Diabolic Edict":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/49/Diabolic_Edict_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Lightning Storm":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b0/Lightning_Storm_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Pulse Nova":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/ca/Pulse_Nova_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Silencer":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/43/Silencer.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/43/Silencer.png/80px-Silencer.png",
+        "abilities":{
+            "Intelligence Steal":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b3/Glaives_of_Wisdom_icon.png"
+            },
+            "Arcane Curse":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/da/Arcane_Curse_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Glaives of Wisdom":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b3/Glaives_of_Wisdom_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Last Word":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/ae/Last_Word_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Global Silence":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2d/Global_Silence_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Dark Seer":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f7/Dark_Seer.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/f7/Dark_Seer.png/80px-Dark_Seer.png",
+        "abilities":{
+            "Vacuum":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e3/Vacuum_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Ion Shell":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b5/Ion_Shell_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Surge":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0f/Surge_icon.png"
+            },
+            "Wall of Replica":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c6/Wall_of_Replica_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Ogre Magi":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/ae/Ogre_Magi.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/ae/Ogre_Magi.png/80px-Ogre_Magi.png",
+        "abilities":{
+            "Fireblast":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/30/Fireblast_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Ignite":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e4/Ignite_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Bloodlust":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b4/Bloodlust_icon.png"
+            },
+            "Multicast":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/87/Multicast_icon.png"
+            },
+            "Unrefined Fireblast":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/64/Unrefined_Fireblast_icon.png",
+                "bkb":"blocked",
+                "linkens":"bloched"
+            }
+        }
+    },
+    "Batrider":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5e/Batrider.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/5e/Batrider.png/80px-Batrider.png",
+        "abilities":{
+            "Sticky Napalm":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/76/Sticky_Napalm_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Flamebreak":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/04/Flamebreak_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Firefly":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2c/Firefly_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Flaming Lasso":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9e/Flaming_Lasso_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"partially_blocked"
+            }
+        }
+    },
+    "Rubick":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/37/Rubick.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/37/Rubick.png/80px-Rubick.png",
+        "abilities":{
+            "Telekinesis":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/0e/Telekinesis_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Telekinesis Land":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/15/Telekinesis_Land_icon.png"
+            },
+            "Fade Bolt":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/35/Fade_Bolt_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Null Field":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/71/Null_Field_icon.png"
+            },
+            "Spell Steal":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f4/Spell_Steal_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Ancient Apparition":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b1/Ancient_Apparition.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/b/b1/Ancient_Apparition.png/80px-Ancient_Apparition.png",
+        "abilities":{
+            "Cold Feet":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/52/Cold_Feet_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Ice Vortex":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9e/Ice_Vortex_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Chilling Touch":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/71/Chilling_Touch_icon.png"
+            },
+            "Ice Blast":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f4/Ice_Blast_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Release":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/ac/Release_icon.png"
+            }
+        }
+    },
+    "Disruptor":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/ce/Disruptor.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/ce/Disruptor.png/80px-Disruptor.png",
+        "abilities":{
+            "Thunder Strike":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5e/Thunder_Strike_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Glimpse":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ed/Glimpse_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Kinetic Field":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7f/Kinetic_Field_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Static Storm":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8e/Static_Storm_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Invoker":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/39/Invoker.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/39/Invoker.png/80px-Invoker.png",
+        "abilities":{
+            "Cold Snap":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/fb/Cold_Snap_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Ghost Walk":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c8/Ghost_Walk_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Ice Wall":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/2d/Ice_Wall_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "EMP":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/97/EMP_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Tornado":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e1/Tornado_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Alacrity":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/1b/Alacrity_icon.png"
+            },
+            "Sun Strike":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/83/Sun_Strike_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Forge Spirit":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/cb/Forge_Spirit_icon.png"
+            },
+            "Chaos Meteor":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/76/Chaos_Meteor_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Deafening Blast":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/dd/Deafening_Blast_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Forged Spirit's Melting Strike":{
+                "real_name":"Melting Strike",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9a/Melting_Strike_%28Forged_Spirit%29_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Outworld Devourer":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/40/Outworld_Devourer.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/40/Outworld_Devourer.png/80px-Outworld_Devourer.png",
+        "abilities":{
+            "Arcane Orb":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/68/Arcane_Orb_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Astral Imprisonment":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/09/Astral_Imprisonment_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Essence Aura":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/ae/Essence_Aura_icon.png"
+            },
+            "Sanity's Eclipse":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9f/Sanity%27s_Eclipse_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Skywrath Mage":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/5/51/Skywrath_Mage.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/51/Skywrath_Mage.png/80px-Skywrath_Mage.png",
+        "abilities":{
+            "Arcane Bolt":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3a/Arcane_Bolt_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Concussive Shot":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/88/Concussive_Shot_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Ancient Seal":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/06/Ancient_Seal_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Mystic Flare":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/23/Mystic_Flare_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Shadow Demon":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9d/Shadow_Demon.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/9d/Shadow_Demon.png/80px-Shadow_Demon.png",
+        "abilities":{
+            "Disruption":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b6/Disruption_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Soul Catcher":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e8/Soul_Catcher_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Shadow Poison":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/32/Shadow_Poison_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Demonic Purge":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4a/Demonic_Purge_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"blocked"
+            }
+        }
+    },
+    "Oracle":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/1/17/Oracle.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/17/Oracle.png/80px-Oracle.png",
+        "abilities":{
+            "Fortune's End":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/38/Fortune%27s_End_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Fate's Edict":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/db/Fate%27s_Edict_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Purifying Flames":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/3e/Purifying_Flames_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "False Promise":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f0/False_Promise_icon.png"
+            }
+        }
+    },
+    "Visage":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c2/Visage.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/c2/Visage.png/80px-Visage.png",
+        "abilities":{
+            "Grave Chill":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c2/Grave_Chill_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Soul Assumption":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4d/Soul_Assumption_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Gravekeeper's Cloak":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c2/Gravekeeper%27s_Cloak_icon.png"
+            },
+            "Summon Familiars":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/3/39/Summon_Familiars_icon.png"
+            },
+            "Familiars' Stone Form":{
+                "real_name":"Stone Form",
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/2/20/Stone_Form_%28Familiar%29_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Techies":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/09/Techies.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/0/09/Techies.png/80px-Techies.png",
+        "abilities":{
+            "Land Mines":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/d4/Land_Mines_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Stasis Trap":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/de/Stasis_Trap_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Suicide Squad, Attack!":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/86/Suicide_Squad%2C_Attack%21_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            },
+            "Minefield Sign":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8d/Minefield_Sign_icon.png"
+            },
+            "Remote Mines":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/e1/Remote_Mines_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
+    "Winter Wyvern":{
+        "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/92/Winter_Wyvern.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/92/Winter_Wyvern.png/80px-Winter_Wyvern.png",
+        "abilities":{
+            "Arctic Burn":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/01/Arctic_Burn_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Splinter Blast":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/e/ea/Splinter_Blast_icon.png",
+                "bkb":"blocked",
+                "linkens":"partially_blocked"
+            },
+            "Cold Embrace":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/8a/Cold_Embrace_icon.png"
+            },
+            "Winter's Curse":{
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b2/Winter%27s_Curse_icon.png",
+                "bkb":"partially_blocked",
+                "linkens":"blocked"
+            }
+        }
+    }
+}

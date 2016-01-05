@@ -1,0 +1,22 @@
+{
+  "str_main_welcome": "Hi! Welcome to DotaBlocker! Enter the heroes that you're facing and we'll show you wich spells are blocked by",
+  "str_main_warning": "Be careful! If a spell has area of effect, rather than being individual, it will be blocked by Linken's Sphere only if you're the primary target. Othwerwise, you will still be affected by it. This is the case of, for example, Oracle's Fortune's End or Shadow Shaman's Ether Shock.",
+  "str_main_enter_team": "Enter the enemy team",
+  "str_main_blocked_by": "Blocked by",
+  "str_main_piercing": "Piercing",
+  "str_main_check_on_wiki": "Check on the wiki",
+
+  "str_menu_source": "Source code",
+  "str_menu_author": "Author",
+
+  "str_ui_no_hero": "No hero selected",
+  "str_ui_switch_to_piercing": "Display abilities that pierce BKB and Linken's",
+  "str_ui_switch_to_blocked": "Display abilities blocked by BKB and Linken's",
+
+  "str_item_bkb": "Black King Bar",
+  "str_item_linkens": "Linken's Sphere", 
+
+  "str_word_and": "and",
+  "str_word_version": "Version",
+  "str_word_patch": "Patch"
+}
