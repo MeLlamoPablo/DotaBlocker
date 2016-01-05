@@ -3,7 +3,6 @@ var bkb = {};
 var linkens = {};
 var blocked_mode = true;
 var strings = {};
-var ayy;
 
 $(document).ready(function(){
 	//Add the language values in strings/en.json
