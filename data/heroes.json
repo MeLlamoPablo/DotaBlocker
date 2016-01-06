@@ -87,7 +87,7 @@
             "Rot":{
                 "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/7/76/Rot_icon.png",
                 "bkb":"blocked",
-                "linkens":"mot_blocked"
+                "linkens":"not_blocked"
             },
             "Flesh Heap":{
                 "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/b/bf/Flesh_Heap_icon.png"
