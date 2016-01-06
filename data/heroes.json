@@ -384,7 +384,9 @@
                 "linkens":"not_blocked"
             },
             "Repel":{
-                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f7/Repel_icon.png"
+                "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f7/Repel_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
             },
             "Degen Aura":{
                 "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4d/Degen_Aura_icon.png",
