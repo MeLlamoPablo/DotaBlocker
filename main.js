@@ -59,27 +59,22 @@ $(document).ready(function(){
 					if(typeof v.bkb != 'undefined'){
 						//If v.bkb is undefined (doesn't exist), we don't show the spell at all.
 						//Reasons for not being defined can be the spell not affecting the enemy team or being a passive.
+						bkb[k] = {
+							hero: params.selected,
+							img: v.img,
+							// Some hero ability names have been modified to be more helpful to the user.
+							// i.e: Permanent Immolation ---> Golem's Permanent Immolation
+							// But modifying them will render the wiki urls invalid
+							// Thus, on those modified abilities we specify the real_name property, so that the URL is
+							// always available.
+							url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_"))
+						}
 						switch(v.bkb){
 							case 'blocked':
-								bkb[k] = {
-									hero: params.selected,
-									pierces: false,
-									img: v.img,
-									// Some hero ability names have been modified to be more helpful to the user.
-									// i.e: Permanent Immolation ---> Golem's Permanent Immolation
-									// But modifying them will render the wiki urls invalid
-									// Thus, on those modified abilities we specify the real_name property, so that the URL is
-									// always available.
-									url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_"))
-								}
+								bkb[k]['pierces'] = false;
 								break;
 							case 'not_blocked':
-								bkb[k] = {
-									hero: params.selected,
-									pierces: true,
-									img: v.img,
-									url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_"))
-								}
+								bkb[k]['pierces'] = true;
 								break;
 							case 'partially_blocked':
 								// We'll assume that partially_blocked also pierces BKB.
@@ -91,12 +86,7 @@ $(document).ready(function(){
 								// Spot is rewritten to be blocked, and not partially_blocked.
 								//
 								// Though, that job is not completely done yet, so the heroes.json file needs revision.
-								bkb[k] = {
-									hero: params.selected,
-									pierces: true,
-									img: v.img,
-									url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_"))
-								}
+								bkb[k]['pierces'] = true;
 								break;
 							default:
 								//This shouldn't ever happen
@@ -106,22 +96,17 @@ $(document).ready(function(){
 
 					//Linkens
 					if(typeof v.linkens != 'undefined'){
+						linkens[k] = {
+							hero: params.selected,
+							img: v.img,
+							url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_"))
+						}
 						switch(v.linkens){
 							case 'blocked':
-								linkens[k] = {
-									hero: params.selected,
-									pierces: false,
-									img: v.img,
-									url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_"))
-								}
+								linkens[k]['pierces'] = false;
 								break;
 							case 'not_blocked':
-								linkens[k] = {
-									hero: params.selected,
-									pierces: true,
-									img: v.img,
-									url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_"))
-								}
+								linkens[k]['pierces'] = true;
 								break;
 							case 'partially_blocked':
 								// Many of the linkens partial blocks are due to the fact that it only blocks if the
@@ -133,12 +118,7 @@ $(document).ready(function(){
 								//
 								// For that reason, partially_blocked abilities will be considered as if they don't
 								// pierce linkens.
-								linkens[k] = {
-									hero: params.selected,
-									pierces: false,
-									img: v.img,
-									url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_"))
-								}
+								linkens[k]['pierces'] = false;
 								break;
 							default:
 								//This shouldn't ever happen

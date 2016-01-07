@@ -219,7 +219,7 @@
             },
             "Primal Roar":{
                 "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/6/68/Primal_Roar_icon.png",
-                "bkb":"blocked",
+                "bkb":"not_blocked",
                 "linkens":"partially_blocked"
             },
             "Invisibility":{
