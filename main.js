@@ -69,7 +69,7 @@ $(document).ready(function(){
 							// always available.
 							url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_")),
 							// Sometimes we wan't to specify additional information on partial piercings; that's what notes are for.
-							note: ((typeof v.note === 'undefined') ? false : v.note)
+							note: ((typeof v.note !== 'undefined' && typeof v.note.bkb !== 'undefined') ? v.note.bkb.en : false)
 						}
 						switch(v.bkb){
 							case 'blocked':
@@ -102,7 +102,7 @@ $(document).ready(function(){
 							hero: params.selected,
 							img: v.img,
 							url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_")),
-							note: ((typeof v.note === 'undefined') ? false : v.note)
+							note: ((typeof v.note !== 'undefined' && typeof v.note.linkens !== 'undefined') ? v.note.linkens.en : false)
 						}
 						switch(v.linkens){
 							case 'blocked':
