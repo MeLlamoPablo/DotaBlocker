@@ -37,9 +37,9 @@ $(document).ready(function(){
 		$.each(heroes_keys, function(k, v){
 			$('#enemy_team').append('<option value="' + v + '">' + v + '</option>');
 		});
-		/*$('#enemy_team').chosen({
-			max_selected_options: 5 //TODO ADD THIS
-		});*/
+		$('#enemy_team').chosen({
+			max_selected_options: 5
+		});
 	});
 
 	//Add the first tooltips to the hero portraits
@@ -52,8 +52,8 @@ $(document).ready(function(){
 			//Chosen is not enabled because the user is on mobile
 			//To workaround this, every time the checkbox changes we will erase all our variables...
 			selectedHeroes = [];
-			bkb = [];
-			linkens = [];
+			bkb = {};
+			linkens = {};
 			//..set all five portraits to the no hero selected image...
 			for(var i = 0; i < 5; i++){
 				$('#hero_' + i).attr('src', 'data/images/no_hero.png');
@@ -74,8 +74,6 @@ $(document).ready(function(){
 		}else{
 			change(params);
 		}
-
-		console.log(JSON.stringify(bkb));
 
 		//Update the changes
 		updateChanges();
