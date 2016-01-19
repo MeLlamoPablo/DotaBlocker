@@ -3,6 +3,7 @@ var bkb = {};
 var linkens = {};
 var blocked_mode = true;
 var strings = {};
+var heroes = {};
 
 $(document).ready(function(){
 	//Add the language values in strings/en.json
@@ -24,9 +25,10 @@ $(document).ready(function(){
 		$("#app_dota_patch").html(app.dota_patch);
 	});
 
-	//Create the chosen selector
-	$.getJSON("data/heroes.json", function(heroes){
-		//Sort alphabetically
+	//Get the heroes.json and create the chosen selector
+	$.getJSON("data/heroes.json", function(json){
+		heroes = json;
+		//Sort alphabetically and add the keys to the select
 		var heroes_keys = [];
 		$.each(heroes, function(k, v){
 			heroes_keys[heroes_keys.length] = k;
@@ -38,139 +40,45 @@ $(document).ready(function(){
 		$('#enemy_team').chosen({
 			max_selected_options: 5
 		});
-
-		//Add the first tooltips to the hero portraits
-		$('.hero_portrait').attr('title', strings.str_ui_no_hero);
-		$('.hero_portrait').tooltip({placement: 'bottom'});
-
-		//Listen to the selector changes
-		$('#enemy_team').on('change', function(event, params){
-			//If a hero has been selected, add his image and tooltip, and check his spells.
-			if(typeof params.selected != 'undefined'){
-				var index = selectedHeroes.length;
-				selectedHeroes[index] = params.selected;
-
-				$('#hero_' + index).attr('src', heroes[params.selected]['img_80px']);
-				$('#hero_' + index).attr('data-original-title', params.selected);
-				$('#hero_' + index).tooltip();
-
-				$.each(heroes[params.selected]['abilities'], function(k, v){
-					//BKB
-					if(typeof v.bkb != 'undefined'){
-						//If v.bkb is undefined (doesn't exist), we don't show the spell at all.
-						//Reasons for not being defined can be the spell not affecting the enemy team or being a passive.
-						bkb[k] = {
-							hero: params.selected,
-							img: v.img,
-							// Some hero ability names have been modified to be more helpful to the user.
-							// i.e: Permanent Immolation ---> Golem's Permanent Immolation
-							// But modifying them will render the wiki urls invalid
-							// Thus, on those modified abilities we specify the real_name property, so that the URL is
-							// always available.
-							url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_")),
-							// Sometimes we wan't to specify additional information on partial piercings; that's what notes are for.
-							note: ((typeof v.note !== 'undefined' && typeof v.note.bkb !== 'undefined') ? v.note.bkb.en : false)
-						}
-						switch(v.bkb){
-							case 'blocked':
-								bkb[k]['pierces'] = false;
-								break;
-							case 'not_blocked':
-								bkb[k]['pierces'] = true;
-								break;
-							case 'partially_blocked':
-								// We'll assume that partially_blocked also pierces BKB.
-								//
-								// Ideally, partially_blocked should be replaced in heroes.json with blocked or not_blocked,
-								// depending on the details of the partial block. For instance, Kunkka's X Marks the spot is
-								// marked as partially blocked on dota2.gamepedia.com, but it only pierces BKB on allies.
-								// This information is irrelevant to the user, since he'd be facing Kunkka. Thus, X Marks the
-								// Spot is rewritten to be blocked, and not partially_blocked.
-								//
-								// Though, that job is not completely done yet, so the heroes.json file needs revision.
-								bkb[k]['pierces'] = true;
-								break;
-							default:
-								//This shouldn't ever happen
-								alert('Error: couldn\'t determine whether or not ' + k + 'pierces BKB.');
-						}
-					}
-
-					//Linkens
-					if(typeof v.linkens != 'undefined'){
-						linkens[k] = {
-							hero: params.selected,
-							img: v.img,
-							url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_")),
-							note: ((typeof v.note !== 'undefined' && typeof v.note.linkens !== 'undefined') ? v.note.linkens.en : false)
-						}
-						switch(v.linkens){
-							case 'blocked':
-								linkens[k]['pierces'] = false;
-								break;
-							case 'not_blocked':
-								linkens[k]['pierces'] = true;
-								break;
-							case 'partially_blocked':
-								// Many of the linkens partial blocks are due to the fact that it only blocks if the
-								// target hero is the selected target. This is the case of, for example, Oracle's
-								// Fortune's End or Shadow Shaman's Ether Shock.
-								//
-								// This should be common knowledge to the user, and in fact, a message that warns them
-								// about it will be displayed.
-								//
-								// For that reason, partially_blocked abilities will be considered as if they don't
-								// pierce linkens.
-								linkens[k]['pierces'] = false;
-								break;
-							default:
-								//This shouldn't ever happen
-								alert('Error: couldn\'t determine whether or not ' + k + 'pierces linkens.');
-						}
-					}
-				});
-			}
-			//If a hero has been deselected, remove his image and tooltip
-			else if(typeof params.deselected != 'undefined'){
-				var index = selectedHeroes.indexOf(params.deselected);
-				//If the element is not the last on the array, move the images to the left to "fill the gap".
-				if(index !== selectedHeroes.length-1){
-					for(var i = index+1; i < selectedHeroes.length; i++){
-						$('#hero_' + (i-1)).attr('src', heroes[selectedHeroes[i]]['img_80px']);
-					};
-					$('#hero_' + (i-1)).attr('src', 'data/images/no_hero.png');
-					$('#hero_' + (i-1)).attr('data-original-title', strings.str_ui_no_hero);
-					$('#hero_' + (i-1)).tooltip();
-				}else{
-					$('#hero_' + index).attr('src', 'data/images/no_hero.png');
-					$('#hero_' + index).attr('data-original-title', strings.str_ui_no_hero);
-					$('#hero_' + index).tooltip();
-				}
-
-				selectedHeroes.splice($.inArray(params.deselected, selectedHeroes), 1);
-
-				//Remove their abilities from the bkb var and the linkens var
-				$.each(bkb, function(k, v){
-					if(v.hero === params.deselected) delete bkb[k];
-				});
-				$.each(linkens, function(k, v){
-					if(v.hero === params.deselected) delete linkens[k];
-				});
-			}
-
-			//Close the welcome alert and open the warning the first time a hero is selected
-			if($('#welcome_alert').attr('style') !== "display: none;"){
-				$('#welcome_alert').fadeOut('slow');
-				//Only show the warning message if the user hasn't dismissed it
-				if(!localStorage.getItem('warning_dismissed')){
-					$('#warning').fadeIn('slow');
-				}
-			}
-
-			//Update the changes
-			updateChanges();
-		});
 	});
+
+	//Add the first tooltips to the hero portraits
+	$('.hero_portrait').attr('title', strings.str_ui_no_hero);
+	$('.hero_portrait').tooltip({placement: 'bottom'});
+
+	//Listen to the selector changes
+	$('#enemy_team').on('change', function(event, params){
+		if(typeof params === 'undefined'){
+			//Chosen is not enabled because the user is on mobile
+			//To workaround this, every time the checkbox changes we will erase all our variables...
+			selectedHeroes = [];
+			bkb = {};
+			linkens = {};
+			//..set all five portraits to the no hero selected image...
+			for(var i = 0; i < 5; i++){
+				$('#hero_' + i).attr('src', 'data/images/no_hero.png');
+				$('#hero_' + i).attr('data-original-title', strings.str_ui_no_hero);
+				$('#hero_' + i).tooltip();
+			};
+			//...and call change() as many times as heroes has the user selected, but only if it's less than 5
+			var selectedOptions = $('#enemy_team option:selected');
+			if(selectedOptions.length <= 5){
+				selectedOptions.each(function(index){
+					change({
+						selected: $(this).attr('value')
+					});
+				});
+			}else{
+				alert(strings.str_ui_more_than_5_heroes);
+			}
+		}else{
+			change(params);
+		}
+
+		//Update the changes
+		updateChanges();
+	});
+	
 
 	//Misc
 		//Add closing animations for alerts
@@ -215,6 +123,113 @@ $(document).ready(function(){
 		    $(this).blur();
 		})
 });
+
+function change(params){
+	//If a hero has been selected, add his image and tooltip, and check his spells.
+	if(typeof params.selected != 'undefined') {
+		var index = selectedHeroes.length;
+		selectedHeroes[index] = params.selected;
+
+		$('#hero_' + index).attr('src', heroes[params.selected]['img_80px']);
+		$('#hero_' + index).attr('data-original-title', params.selected);
+		$('#hero_' + index).tooltip();
+
+		$.each(heroes[params.selected]['abilities'], function(k, v) {
+			//BKB
+			if(typeof v.bkb != 'undefined') {
+				//If v.bkb is undefined (doesn't exist), we don't show the spell at all.
+				//Reasons for not being defined can be the spell not affecting the enemy team or being a passive.
+				bkb[k] = {
+					hero: params.selected,
+					img: v.img,
+					// Some hero ability names have been modified to be more helpful to the user.
+					// i.e: Permanent Immolation ---> Golem's Permanent Immolation
+					// But modifying them will render the wiki urls invalid
+					// Thus, on those modified abilities we specify the real_name property, so that the URL is
+					// always available.
+					url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_")),
+					// Sometimes we wan't to specify additional information on partial piercings; that's what notes are for.
+					note: ((typeof v.note !== 'undefined' && typeof v.note.bkb !== 'undefined') ? v.note.bkb.en : false)
+				}
+				switch(v.bkb) {
+					case 'blocked':
+						bkb[k]['pierces'] = false;
+						break;
+					case 'not_blocked':
+						bkb[k]['pierces'] = true;
+						break;
+					case 'partially_blocked':
+						// We'll assume that partially_blocked also pierces BKB.
+						//
+						// Ideally, partially_blocked should be replaced in heroes.json with blocked or not_blocked,
+						// depending on the details of the partial block. For instance, Kunkka's X Marks the spot is
+						// marked as partially blocked on dota2.gamepedia.com, but it only pierces BKB on allies.
+						// This information is irrelevant to the user, since he'd be facing Kunkka. Thus, X Marks the
+						// Spot is rewritten to be blocked, and not partially_blocked.
+						//
+						// Though, that job is not completely done yet, so the heroes.json file needs revision.
+						bkb[k]['pierces'] = true;
+						break;
+					default:
+						//This shouldn't ever happen
+						alert('Error: couldn\'t determine whether or not ' + k + 'pierces BKB.');
+				}
+			}
+
+			//Linkens
+			if(typeof v.linkens != 'undefined') {
+				linkens[k] = {
+					hero: params.selected,
+					img: v.img,
+					url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_")),
+					note: ((typeof v.note !== 'undefined' && typeof v.note.linkens !== 'undefined') ? v.note.linkens.en : false)
+				}
+				switch(v.linkens) {
+					case 'blocked':
+						linkens[k]['pierces'] = false;
+						break;
+					case 'not_blocked':
+						linkens[k]['pierces'] = true;
+						break;
+					case 'partially_blocked':
+						// Many of the linkens partial blocks are due to the fact that it only blocks if the
+						// target hero is the selected target. This is the case of, for example, Oracle's
+						// Fortune's End or Shadow Shaman's Ether Shock.
+						//
+						// This should be common knowledge to the user, and in fact, a message that warns them
+						// about it will be displayed.
+						//
+						// For that reason, partially_blocked abilities will be considered as if they don't
+						// pierce linkens.
+						linkens[k]['pierces'] = false;
+						break;
+					default:
+						//This shouldn't ever happen
+						alert('Error: couldn\'t determine whether or not ' + k + 'pierces linkens.');
+				}
+			}
+		});
+	}
+	//If a hero has been deselected, remove his image and tooltip
+	else if(typeof params.deselected != 'undefined') {
+		var index = selectedHeroes.indexOf(params.deselected);
+		//If the element is not the last on the array, move the images to the left to "fill the gap".
+		if(index !== selectedHeroes.length - 1) {
+			for(var i = index + 1; i < selectedHeroes.length; i++) {
+				$('#hero_' + (i - 1)).attr('src', heroes[selectedHeroes[i]]['img_80px']);
+			};
+			$('#hero_' + (i - 1)).attr('src', 'data/images/no_hero.png');
+			$('#hero_' + (i - 1)).attr('data-original-title', strings.str_ui_no_hero);
+			$('#hero_' + (i - 1)).tooltip();
+		} else {
+			$('#hero_' + index).attr('src', 'data/images/no_hero.png');
+			$('#hero_' + index).attr('data-original-title', strings.str_ui_no_hero);
+			$('#hero_' + index).tooltip();
+		}
+
+		selectedHeroes.splice($.inArray(params.deselected, selectedHeroes), 1);
+	}
+}
 
 function updateChanges(){
 	//Update BKB
