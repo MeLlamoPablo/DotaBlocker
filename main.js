@@ -77,6 +77,15 @@ $(document).ready(function(){
 
 		//Update the changes
 		updateChanges();
+
+		//Close the welcome alert and open the warning the first time a hero is selected
+		if($('#welcome_alert').attr('style') !== "display: none;"){
+			$('#welcome_alert').fadeOut('slow');
+			//Only show the warning message if the user hasn't dismissed it
+			if(!localStorage.getItem('warning_dismissed')){
+				$('#warning').fadeIn('slow');
+			}
+		}
 	});
 	
 
