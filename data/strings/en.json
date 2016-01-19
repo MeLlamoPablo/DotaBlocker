@@ -10,8 +10,10 @@
   "str_menu_author": "Author",
 
   "str_ui_no_hero": "No hero selected",
+  "str_ui_note": "Note",
   "str_ui_switch_to_piercing": "Display abilities that pierce BKB and Linken's",
   "str_ui_switch_to_blocked": "Display abilities blocked by BKB and Linken's",
+  "str_ui_more_than_5_heroes": "You have selected more than 5 heroes!",
 
   "str_item_bkb": "Black King Bar",
   "str_item_linkens": "Linken's Sphere", 
