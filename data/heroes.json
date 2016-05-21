@@ -224,7 +224,7 @@
             "Boar's Poison":{
                 "real_name":"Poison",
                 "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/9/9c/Poison_%28Boar%29_icon.png",
-                "bkb":"not_blocked",
+                "bkb":"blocked",
                 "linkens":"not_blocked"
             }
         }
@@ -583,7 +583,7 @@
             },
             "Spirit Siphon":{
                 "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/83/Spirit_Siphon_icon.png",
-                "bkb":"not_blocked",
+                "bkb":"blocked",
                 "linkens":"blocked"
             },
             "Exorcism":{
@@ -1643,7 +1643,7 @@
             },
             "Degen Aura":{
                 "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/4/4d/Degen_Aura_icon.png",
-                "bkb":"not_blocked",
+                "bkb":"blocked",
                 "linkens":"not_blocked"
             },
             "Guardian Angel":{
@@ -2168,8 +2168,13 @@
         "abilities":{
             "Spectral Dagger":{
                 "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/d/db/Spectral_Dagger_icon.png",
-                "bkb":"not_blocked",
-                "linkens":"not_blocked"
+                "bkb":"blocked",
+                "linkens":"not_blocked",
+                "note":{
+                    "bkb":{
+                        "en":"Can place trait and slow debuff on spell immune units. The slow debuff is inactive while spell immune."
+                    }
+                }
             },
             "Desolate":{
                 "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/0/06/Desolate_icon.png",
