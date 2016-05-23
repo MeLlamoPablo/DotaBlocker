@@ -1854,6 +1854,27 @@
             }
         }
     },
+    "Queen of Pain":{
+        "img":"https://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b5/Queen_of_Pain.png",
+        "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/b/b5/Queen_of_Pain.png/80px-Queen_of_Pain.png",
+        "abilities":{
+            "Shadow Strike":{
+                "img":"https://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a6/Shadow_Strike_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Scream of Pain":{
+                "img":"https://hydra-media.cursecdn.com/dota2.gamepedia.com/c/c8/Scream_of_Pain_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Sonic Wave":{
+                "img":"https://hydra-media.cursecdn.com/dota2.gamepedia.com/b/b5/Sonic_Wave_icon.png",
+                "bkb":"not_blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
     "Razor":{
         "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/a/a0/Razor.png",
         "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/a0/Razor.png/80px-Razor.png",

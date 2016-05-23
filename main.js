@@ -156,7 +156,7 @@ function change(params){
 					// But modifying them will render the wiki urls invalid
 					// Thus, on those modified abilities we specify the real_name property, so that the URL is
 					// always available.
-					url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_")),
+					url_name: ((typeof v.real_name === 'undefined') ? k.replace(/ /g, "_") : v.real_name.replace(/ /g, "_")),
 					// Sometimes we wan't to specify additional information on partial piercings; that's what notes are for.
 					note: ((typeof v.note !== 'undefined' && typeof v.note.bkb !== 'undefined') ? v.note.bkb.en : false)
 				}
@@ -190,7 +190,7 @@ function change(params){
 				linkens[k] = {
 					hero: params.selected,
 					img: v.img,
-					url_name: ((typeof v.real_name === 'undefined') ? k.replace(" ", "_") : v.real_name.replace(" ", "_")),
+					url_name: ((typeof v.real_name === 'undefined') ? k.replace(/ /g, "_") : v.real_name.replace(/ /g, "_")),
 					note: ((typeof v.note !== 'undefined' && typeof v.note.linkens !== 'undefined') ? v.note.linkens.en : false)
 				}
 				switch(v.linkens) {
@@ -254,7 +254,7 @@ function updateChanges(){
                     </div>
                     <div class="col-md-9">
                         <h4>${v.hero + "'s " + k}</h4>
-                        <a href="http://dota2.gamepedia.com/${v.hero.replace(" ", "_") + "#" + v.url_name}" target="_blank">
+                        <a href="http://dota2.gamepedia.com/${v.hero.replace(/ /g, "_") + "#" + v.url_name}" target="_blank">
                         	${strings.str_main_check_on_wiki}
                         	<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
                         </a>
@@ -278,7 +278,7 @@ function updateChanges(){
                     </div>
                     <div class="col-md-9">
                         <h4>${v.hero + "'s " + k}</h4>
-                        <a href="http://dota2.gamepedia.com/${v.hero.replace(" ", "_") + "#" + v.url_name}" target="_blank">
+                        <a href="http://dota2.gamepedia.com/${v.hero.replace(/ /g, "_") + "#" + v.url_name}" target="_blank">
                         	${strings.str_main_check_on_wiki}
                         	<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
                         </a>
