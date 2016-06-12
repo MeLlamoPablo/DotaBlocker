@@ -1061,6 +1061,27 @@
             }
         }
     },
+    "Keeper of the Light":{
+        "img":"https://hydra-media.cursecdn.com/dota2.gamepedia.com/5/5c/Keeper_of_the_Light.pngg",
+        "img_80px":"https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/5c/Keeper_of_the_Light.png/80px-Keeper_of_the_Light.png",
+        "abilities":{
+            "Illuminate":{
+                "img":"https://hydra-media.cursecdn.com/dota2.gamepedia.com/b/bd/Illuminate_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            },
+            "Mana Leak":{
+                "img":"https://hydra-media.cursecdn.com/dota2.gamepedia.com/f/f7/Mana_Leak_icon.png",
+                "bkb":"blocked",
+                "linkens":"blocked"
+            },
+            "Blinding Light":{
+                "img":"https://hydra-media.cursecdn.com/dota2.gamepedia.com/d/df/Blinding_Light_icon.png",
+                "bkb":"blocked",
+                "linkens":"not_blocked"
+            }
+        }
+    },
     "Kunkka":{
         "img":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/8/89/Kunkka.png",
         "img_80px":"http://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/89/Kunkka.png/80px-Kunkka.png",
